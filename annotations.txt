@@ -1,0 +1,19 @@
+Usar o comando ***ssh-keygen -t rsa -C "seu_email@provedor.com"***, para criar uma chave SSH no git.
+
+O comando ***cd*** é usado para entrar em pastas.
+
+O comando ***cd ..*** vai para a pasta anterior.
+
+O comando ***ls*** lista as pastas dentro da pasta atual.
+
+O comando ***git clone url-do-repositorio*** clona um repositorio do git na maquina.
+
+O comando ***git tag*** mostra todas as tags criadas, o ***git tag nome-tag*** cria uma nova tag.
+
+O comando ***git checkout nome-branch*** troca de branch ou de tag.
+
+O comando ***git checkout -b nome-branch*** cria a branch e muda para ela.
+
+O comando ***git diff nome-arquivo*** mostra as alterações no arquivo.
+
+O comando ***git blame nome-arquivo*** mostra alterações mais detalhadas.
