@@ -1,5 +1,9 @@
 ***ssh-keygen -t rsa -C "seu_email@provedor.com"*** cria uma chave SSH no git.
 
+***git remote*** lista os repositorios remotos do repositorio local.
+
+***git remote add alias-repositorio uri-repositorio*** adiciona um repositorio remoto no repositorio local.
+
 ***git config user.name 'nome-usuario'*** configura o nome de usuario. --global configura para toda a maquina, sem ele somente para o repositorio atual.
 
 ***git config user.email 'email-usuario'*** configura o email do usuario. --global configura para toda a maquina, sem ele somente para o repositorio atual.
@@ -17,7 +21,6 @@
 ***ls*** lista as pastas dentro da pasta atual.
 
 ***git ls-files*** lista os arquivos que estao tendo alterações monitoradas.
-
 
 ***git clone url-do-repositorio*** clona um repositorio do git na maquina.
 
@@ -38,3 +41,15 @@
 ***git add .*** adiciona todos os arquivos para commit.
 
 ***git commit -m 'texto-commit'*** faz um commit.
+
+***git push alias-repositorio nome-branch*** envia os comits para o repositorio remoto.
+
+***git push -u alias-repositorio nome-branch*** envia os comits para o repositorio remoto e faz o track da branch remota e da local.
+
+***git pull alias-repositorio nome-branch*** traz as alterações do repositorio remoto para o local.
+
+***git log*** mostra o historico de commits.
+
+***git whatchanged*** mostra um historico mais detalhado de commits.
+
+***git whatchanged -p*** mostra um historico mais detalhado de commits com linhas alteradas.
