@@ -1,19 +1,40 @@
-Usar o comando ***ssh-keygen -t rsa -C "seu_email@provedor.com"***, para criar uma chave SSH no git.
+***ssh-keygen -t rsa -C "seu_email@provedor.com"*** cria uma chave SSH no git.
 
-O comando ***cd*** é usado para entrar em pastas.
+***git config user.name 'nome-usuario'*** configura o nome de usuario. --global configura para toda a maquina, sem ele somente para o repositorio atual.
 
-O comando ***cd ..*** vai para a pasta anterior.
+***git config user.email 'email-usuario'*** configura o email do usuario. --global configura para toda a maquina, sem ele somente para o repositorio atual.
 
-O comando ***ls*** lista as pastas dentro da pasta atual.
+***git config --list*** lista todas as configurações.
 
-O comando ***git clone url-do-repositorio*** clona um repositorio do git na maquina.
+***mkdir nome-pasta*** cria uma pasta.
 
-O comando ***git tag*** mostra todas as tags criadas, o ***git tag nome-tag*** cria uma nova tag.
+***git init*** faz o git monitorar alterações na pasta.
 
-O comando ***git checkout nome-branch*** troca de branch ou de tag.
+***cd nome-pasta*** entrar em pastas.
 
-O comando ***git checkout -b nome-branch*** cria a branch e muda para ela.
+***cd ..*** vai para a pasta anterior.
 
-O comando ***git diff nome-arquivo*** mostra as alterações no arquivo.
+***ls*** lista as pastas dentro da pasta atual.
 
-O comando ***git blame nome-arquivo*** mostra alterações mais detalhadas.
+***git ls-files*** lista os arquivos que estao tendo alterações monitoradas.
+
+
+***git clone url-do-repositorio*** clona um repositorio do git na maquina.
+
+***git tag*** mostra todas as tags criadas, o ***git tag nome-tag*** cria uma nova tag.
+
+***git checkout nome-branch*** troca de branch ou de tag.
+
+***git checkout -b nome-branch*** cria a branch e muda para ela.
+
+***git diff nome-arquivo*** mostra as alterações no arquivo.
+
+***git blame nome-arquivo*** mostra alterações mais detalhadas.
+
+***git status*** mostra o estado atual do repositorio.
+
+***git add nome-arquivo*** adiciona arquivos para commit
+
+***git add .*** adiciona todos os arquivos para commit.
+
+***git commit -m 'texto-commit'*** faz um commit.
