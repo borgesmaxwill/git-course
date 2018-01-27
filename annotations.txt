@@ -26,9 +26,19 @@
 
 ***git tag*** mostra todas as tags criadas, o ***git tag nome-tag*** cria uma nova tag.
 
+***git branch*** lista as branches locais.
+
+***git branch -r*** lista as branches remotas.
+
+***git branch nome-branch*** cria uma branch local.
+
+***git branch -t nome-branch alias-repositorio/remote-branch*** cria uma branch local e faz o track com a remota.
+
 ***git checkout nome-branch*** troca de branch ou de tag.
 
 ***git checkout -b nome-branch*** cria a branch e muda para ela.
+
+***git checkout -t alias-repositorio/branch-remota*** cria branch local com mesmo nome da remota troca para ela e faz o track.
 
 ***git diff nome-arquivo*** mostra as alterações no arquivo.
 
