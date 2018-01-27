@@ -63,3 +63,7 @@
 ***git whatchanged*** mostra um historico mais detalhado de commits.
 
 ***git whatchanged -p*** mostra um historico mais detalhado de commits com linhas alteradas.
+
+***git rebase branch-base branch-alvo*** atualiza a branch alvo de acordo com a branch base.
+
+***git merge branch-origem*** faz merge dos commits da branch de origem na branch atual.
